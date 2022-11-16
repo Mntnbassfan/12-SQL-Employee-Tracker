@@ -29,3 +29,11 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
+
+## Project URL
+
+https://github.com/Mntnbassfan/12-SQL-Employee-Tracker
+
+## Deployed Website URL
+
+https://mntnbassfan.github.io/12-SQL-Employee-Tracker/
