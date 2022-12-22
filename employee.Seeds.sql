@@ -23,23 +23,23 @@ INSERT INTO department (id, name) VALUES (5, 'Legal');
 -- role_id - reference to role employee has
 -- manager_id - reference to another employee who is the manager of the current employee.
 -- This field will be null if the employee is not a manager.
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Robert', 'Johnson',1, 3 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('B.B.', 'King',2, 3 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Buddy', 'Guy',3, null );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Robert', 'Johnson', 1, 3 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('B.B.', 'King', 2, 3 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Buddy', 'Guy', 3, null );
+ 
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Muddy', 'Waters', 4, 6 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('John', 'Hooker', 5, 6 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Stevie', 'Vaughn', 6, null );
 
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Muddy', 'Waters',4, 6 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('John', 'Hooker',5, 6 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Stevie', 'Vaughn',6, null );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Albert', 'King', 7, 9 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Eric', 'Clapton', 8, 9 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Howlin', 'Wolf', 9, null );
 
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Albert', 'King',7, 9 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Eric', 'Clapton',8, 9 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Howlin', 'Wolf',9, null );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Son', 'House', 10, 12 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Elmore', 'James', 11, 12 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Etta', 'James', 12, null );
 
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Son', 'House',10, 12 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Elmore', 'James',11, 12 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Etta', 'James',12, null );
-
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Lightnin', 'Hopkins',13, 15 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Luther', 'Allison',14, 15 );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Bobby', 'Bland',12, null );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Lightnin', 'Hopkins', 13, 15 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Luther', 'Allison', 14, 15 );
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Bobby', 'Bland', 12, null );
 

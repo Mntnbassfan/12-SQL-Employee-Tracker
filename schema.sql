@@ -6,6 +6,12 @@ USE employee_tracker.db;
 CREATE TABLE department(
     id INT AUTO_INCREMENT PRIMARY KEY, 
     name VARCHAR(30) NOT NULL
+    -- Create unique id for each item
+    id INT NOT NULL AUTO_INCREMENT,
+     -- Set dept_name 
+    dept_name VARCHAR(30) NOT NULL
+    -- Set id as the primary key identify each item 
+    PRIMARY KEY (id)
 );
 
 CREATE TABLE role(
