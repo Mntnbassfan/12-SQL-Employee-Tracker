@@ -1,25 +1,20 @@
-DROP DATABASE IF EXISTS employee_tracker.db;
+DROP DATABASE IF EXISTS employee_tracker;
 
-CREATE DATABASE employee_tracker.db;
-USE employee_tracker.db;
+CREATE DATABASE employee_tracker;
+use employee_tracker;
 
 CREATE TABLE department(
     id INT AUTO_INCREMENT PRIMARY KEY, 
     name VARCHAR(30) NOT NULL
-    -- Create unique id for each item
-    id INT NOT NULL AUTO_INCREMENT,
-     -- Set dept_name 
-    dept_name VARCHAR(30) NOT NULL
-    -- Set id as the primary key identify each item 
-    PRIMARY KEY (id)
+   
 );
 
 CREATE TABLE role(
       id INT AUTO_INCREMENT PRIMARY KEY,
       title VARCHAR(30) NOT NULL,
       salary DECIMAL NOT NULL,
-      depart_id INT NOT NULL,
-      FOREIGN KEY(depart_id) REFERENCES department(id)
+      department_id INT NOT NULL,
+      FOREIGN KEY(department_id) REFERENCES department(id)
 );
 
 CREATE TABLE employee(
