@@ -34,6 +34,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 https://github.com/Mntnbassfan/12-SQL-Employee-Tracker
 
-## Deployed Website URL
+## Walkthrough Video
 
-https://mntnbassfan.github.io/12-SQL-Employee-Tracker/
+https://drive.google.com/file/d/1-RFk2ctbjxT2AlG4YsGo8azipYHBqjG9/view
