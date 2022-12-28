@@ -155,32 +155,3 @@ function  viewEmployees() {
 inquirerPrompts();
 });
 }
-
-  // "add role",
-// title, salary, department
-
-// function addRole() {
-//   const array = [];
-//   getDepartmentsAsync()
-//   .then(data => {
-//           for (let i=0; i<data.length; i++) {
-//               array.push(data[i])
-//           }
-//       })
-//   .catch(err => {
-//       console.log(err);
-//   });
-
-//   inquirer.prompt([
-//       {
-//           type: 'input',
-//           name: 'title',   
-//           message: 'What is the title of the new role?',
-
-
-  
-  // "add employee",
-
-  // "update employee role",
-
-inquirerPrompts();
